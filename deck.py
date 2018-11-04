@@ -8,6 +8,6 @@ def make_deck():
             deck.append((value,suit))
         for face in faces:
             deck.append((face,suit))
-    for card in deck:
-        print(card)
+
+    return deck
 
