@@ -1,9 +1,8 @@
+#function usage: n choose k = choose(n,k)
 def choose( n, k):
     return fact(n)/(fact(k)*fact(n-k))
 
-#def test(a):
-#    print(_fact(5))
-
+#is factorial ya
 def fact(val):
     if val < 1:
         return -1
@@ -12,4 +11,4 @@ def fact(val):
     else:
         return val*fact(val-1)
 
-#test(5)
+
