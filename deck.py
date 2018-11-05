@@ -1,4 +1,4 @@
-#a comment
+#a comment literally wahts happenings
 def make_deck():
     deck = []
     suits = 'H','D','C','S'
@@ -11,4 +11,6 @@ def make_deck():
             deck.append((face,suit))
 
     return deck
+
+#im just gonnna add some random comennts so i have a dif thingsy
 
